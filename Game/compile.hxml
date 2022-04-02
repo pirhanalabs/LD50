@@ -1,0 +1,15 @@
+-cp src
+
+-lib heaps
+# -lib hlsdl
+-lib heaps-aseprite
+-lib pirhana
+
+# -hl bin/client.hl
+-js bin/client.js
+
+-main Game
+# -D windowTitle=Final Destination
+# -D windowSize=1980x1080
+# -D windowSize=800x600
+-D debug
