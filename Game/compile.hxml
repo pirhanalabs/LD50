@@ -1,15 +1,15 @@
 -cp src
 
 -lib heaps
-# -lib hlsdl
+-lib hlsdl
 -lib heaps-aseprite
 -lib pirhana
 
 # -hl bin/client.hl
 -js bin/client.js
 
--main Game
-# -D windowTitle=Final Destination
-# -D windowSize=1980x1080
-# -D windowSize=800x600
+-main Main
+-D windowTitle=Ludum Dare 50
+# -D windowSize=1920x1080
+-D windowSize=800x600
 -D debug

@@ -1,4 +1,7 @@
 {
+	"search.exclude": {
+		"export/**/*.hx": true
+	},
 	"[haxe]": {
 		"editor.formatOnSave": true,
 		"editor.formatOnPaste": true,
@@ -6,5 +9,5 @@
 			"source.sortImports": true
 		}
 	},
-	"haxe.enableExtendedIndentation": true
+	"haxe.enableExtendedIndentation": true//,
 }
